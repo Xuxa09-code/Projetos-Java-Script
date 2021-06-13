@@ -1,0 +1,65 @@
+table{
+    border-style: solid;
+    /* border-color: indigo;
+    color: indigo; */
+}
+td input[type=number]{
+   width: 55px; 
+   margin: 0px;
+}
+p {
+    font-size: 20px;
+}
+#index {
+    font-size: 15px;
+}
+#centro {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(78, 9, 157);
+    padding: 50px;
+    margin-top: 50px;
+    align-items: center;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline-start: 0px;
+}
+li {
+    background-color: rgb(193, 230, 237);
+    border-color: rgb(36, 52, 68);
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+li:hover {
+    background-color: rgb(154, 221, 242);
+}
+a {
+    color: rgb(48, 41, 60);
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+input[type = number]{
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+table{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type = button]{
+    background-color: rgb(0, 148, 5);
+    color: white;
+    margin: 5px;
+}

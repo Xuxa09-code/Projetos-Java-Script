@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+    <link rel="stylesheet" href="css/execicio8.css">
+</head>
+<body>
+    <h1>Exercicio 8</h1>
+    <form>
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+        <label>Pessoa:</label>
+            <input type="radio" name="pessoa1" value="fis" id="pessoa" onclick="pes()"><label>Física</label><br>
+            <input type="radio" name="pessoa1" value="jur" id="pessoa2" onclick="pes2()"><label>Jurídica</label>
+        </div>
+        <div>
+            <label>CPF: </label><input type="text" name="" id="cpf" pattern="[0-9-.]+$" disabled placeholder="Ex.: 000.000.000-00">
+        </div>
+        <div>
+            <label>CNPJ: </label><input type="text" name="" id="cnpj" disabled pattern="[0-9-]+$" placeholder="XX. XXX. XXX/XXXX-XX">
+        </div>
+        <div>
+            <label>Data de nascimento: </label><input type="date" name="" id="nascimento" disabled>
+        </div>
+        <div>
+            <label>Endereço: </label><input type="text" name="" id="endereco" placeholder="Endereço">
+        </div>
+        <div>
+            <label>CEP: </label><input type="text" name="" id="cep" pattern="[0-9-]+$" placeholder="Ex.: 00000-000">
+        </div>
+        <div>
+            <label>Telefone: </label><input type="text" name="" id="telefone" pattern="[0-9-]+$" placeholder="Ex.: (00) 0000-0000">
+        </div>
+        <div>
+            <label>email: </label><input type="email" name="" id="email" placeholder="Ex.: usuario@tipo.com">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <script src="JS/exercicio8.js"></script>
+</body>
+</html>

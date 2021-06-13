@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div{
+    background-color: grey;
+    padding: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+input[type='radio']:checked:after{
+    background-color: red;
+}
+input[type=number]{
+    background-color: black;
+    color: white;
+}
+select {
+    padding: 5px;
+    height: 200px;
+    margin-top: 10px;
+}
+select option{
+    height: 9.8%;
+}

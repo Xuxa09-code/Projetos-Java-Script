@@ -1,0 +1,6 @@
+var.length ---- strlen
+s.toUpperCase() ---- toupper
+s.toLowerCase() ----- passa para minusculas
+var.toFixed(2) ---- %.2f  (fixa numero de casas decimais
+replace('','') ----- troca uma coisa pela outra
+var.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})

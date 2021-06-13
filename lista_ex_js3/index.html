@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="centro">
+        <h1>Recuperação Final de Informática</h1>
+        <h3>Gabriel Rodrigues da Costa</h3>
+        <ul>
+            <li onmouseenter = "ex1(0)" onmouseleave = "ex1(1)"><a href="exercicio1.html">exercicio 1</a></li>
+            <li onmouseenter = "ex2(0)" onmouseleave = "ex2(1)"><a href="exercicio2.html">exercicio 2</a></li>
+            <li onmouseenter = "ex3(0)" onmouseleave = "ex3(1)"><a href="exercicio3.html">exercicio 3</a></li>
+            <li onmouseenter = "ex4(0)" onmouseleave = "ex4(1)"><a href="exercicio4.html">exercicio 4</a></li>
+            <li onmouseenter = "ex5(0)" onmouseleave = "ex5(1)"><a href="exercicio5.html">exercicio 5</a></li>
+            <li onmouseenter = "ex6(0)" onmouseleave = "ex6(1)"><a href="exercicio6.html">exercicio 6</a></li>
+            <li onmouseenter = "ex7(0)" onmouseleave = "ex7(1)"><a href="exercicio7.html">exercicio 7</a></li>
+            <li onmouseenter = "ex8(0)" onmouseleave = "ex8(1)"><a href="exercicio8.html">exercicio 8</a></li>
+            <li onmouseenter = "ex9(0)" onmouseleave = "ex9(1)"><a href="exercicio9.html">exercicio 9</a></li>
+            <li onmouseenter = "ex10(0)" onmouseleave = "ex10(1)"><a href="exercicio10.html">exercicio 10</a></li>
+        </ul>
+    </div>
+    <script>
+        var text = document.querySelectorAll('li')
+        function ex1(confere) {
+            text[0].innerHTML = ""
+            text[0].innerHTML = '<a href="exercicio1.html">exercicio 1</a>'
+            if(confere == 0)
+                text[0].innerHTML += '<a href="exercicio1.html"><p id = "index">Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].</p></a>'
+            else
+                text[0].innerHTML += ""
+        }
+        function ex2(confere) {
+            text[1].innerHTML = ""
+            text[1].innerHTML = '<a href="exercicio2.html">exercicio 2</a>'
+            if(confere == 0)
+                text[1].innerHTML += '<a href="exercicio2.html"><p id = "index">Faça um Programa que converta metros para centímetros. (Dica:  1 metro = 100 centímetros)</p></a>'
+            else
+                text[2].innerHTML += ""
+        }
+        function ex3(confere) {
+            text[2].innerHTML = ""
+            text[2].innerHTML = '<a href="exercicio3.html">exercicio 3</a>'
+            if(confere == 0)
+                text[2].innerHTML += '<a href="exercicio3.html"><p id = "index">Faça um Programa que converta  centímetros  para polegadas. (Dica: 1 centímetro = 0,393700787 polegadas)  (Bônus de um ponto para o sorteado  ou voluntário que resolver)</p></a>'
+            else
+                text[2].innerHTML += ""
+        }
+        function ex4(confere) {
+            text[3].innerHTML = ""
+            text[3].innerHTML = '<a href="exercicio4.html">exercicio 4</a>'
+            if(confere == 0)
+                text[3].innerHTML += '<a href="exercicio4.html"><p id = "index">Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. Fórmula: Area = pi * raio²  (Bônus de um ponto para o sorteado  ou voluntário que resolver)</p></a>'
+            else
+                text[3].innerHTML += ""
+        }
+        function ex5(confere) {
+            text[4].innerHTML = ""
+            text[4].innerHTML = '<a href="exercicio5.html">exercicio 5</a>'
+            if(confere == 0)
+                text[4].innerHTML += '<a href="exercicio5.html"><p id = "index">Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.          Fórmula: Celsius = (5 * (Farenheit -32) / 9).</p></a>'
+            else
+                text[4].innerHTML += ""
+        }
+        function ex6(confere) {
+            text[5].innerHTML = ""
+            text[5].innerHTML = '<a href="exercicio6.html">exercicio 6</a>'
+            if(confere == 0)
+                text[5].innerHTML += '<a href="exercicio6.html"><p id = "index">Faça um Programa que peça as 4 notas bimestrais e mostre a média.</p></a>'
+            else
+                text[5].innerHTML += ""
+        }
+        function ex7(confere) {
+            text[6].innerHTML = ""
+            text[6].innerHTML = '<a href="exercicio7.html">exercicio 7</a>'
+            if(confere == 0)
+                text[6].innerHTML += '<a href="exercicio7.html"><p id = "index">Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit.  Fórmula : Farenheit  =  Celsius  × 1,8 + 32</p></a>'
+            else
+                text[6].innerHTML += ""
+        }
+        function ex8(confere) {
+            text[7].innerHTML = ""
+            text[7].innerHTML = '<a href="exercicio8.html">exercicio 8</a>'
+            if(confere == 0)
+                text[7].innerHTML += '<a href="exercicio8.html"><p id = "index">Faça um Programa que peça o valor da gasolina e do álcool de um posto e diga qual é o combustível mais vantajoso abastecer, sabendo que somente é vantagem abastecer álcool se o preço do mesmo é menor ou igual a 70% do valor da gasolina.</p></a>'
+            else
+                text[7].innerHTML += ""
+        }
+        function ex9(confere) {
+            text[8].innerHTML = ""
+            text[8].innerHTML = '<a href="exercicio9.html">exercicio 9</a>'
+            if (confere == 0)
+                text[8].innerHTML += '<a href="exercicio9.html"><p id = "index">Faça um programa que peça 2 números e mostre ao final os números que estão dentro deste intervalo. Não permitir valores negativos.</p></a>'
+            else
+                text[8].innerHTML += ""
+        }
+        function ex10(confere) {
+            text[9].innerHTML = ""
+            text[9].innerHTML = '<a href="exercicio10.html">exercicio 10</a>'
+            if(confere == 0)
+                text[9].innerHTML += '<a href="exercicio10.html"><p id = "index">Faça um programa que peça um número e imprima uma tabela de conversão de polegadas para centímetros, de 1 até o número informado. Considere que Polegada = Centímetro * 2.54; Não permitir valores negativos.</p></a>'
+            else
+                text[9].innerHTML += ""
+        }
+    </script>
+</body>
+</html>

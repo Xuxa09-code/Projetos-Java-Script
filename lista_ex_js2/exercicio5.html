@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+    <link rel="stylesheet" href="css/exercicio5.css">
+</head>
+<body>
+    <div class="meio">
+        <h1>Exercício 5</h1>
+        <h4>Atenção: Senha com menos de 6 caracteres ou com mais de 11 não serão aceitas<br> Campo 'confirmar senha' diferente de senha não será considerado</h4>
+        <div>
+            <label>Login:</label><input type="text" id="Login" placeholder="Login">
+        </div>
+        <div>
+            <label>Senha:</label><input type="text" id="senha" placeholder="Senha">
+        </div>
+        <div>
+            <label>Confirme sua senha:</label><input type="text" id="senha_cfm" placeholder="Confirme sua senha">
+        </div>
+        <div>
+            <input type="submit" value="Enviar" onclick="senhaFuncao()">
+        </div>
+    </div>
+    <p id="senha_d"></p>
+    <script src="JS/exercicio5.js"></script>
+</body>
+</html>

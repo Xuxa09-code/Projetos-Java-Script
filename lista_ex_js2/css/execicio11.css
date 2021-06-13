@@ -1,0 +1,28 @@
+.content{
+    text-align: center;
+}
+mark {
+    background: yellow;
+  }
+  
+  mark.current {
+    background: orange;
+  }
+  
+  .header {
+    padding: 10px;
+    width: 100%;
+    /* background: #eee; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .content {
+    margin-top: 50px;
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
